@@ -78,6 +78,8 @@ const WeatherData = () => {
           type="radio"
           id="Celcius"
           value="Celcius"
+          name="fav_language"
+          checked
           onClick={handleTemperature}
         />
         <label htmlFor="Celcius">Celcius</label>
@@ -86,6 +88,7 @@ const WeatherData = () => {
           type="radio"
           id="Farheinheit"
           value="Farheinheit"
+          name="fav_language"
           onClick={handleTemperature}
         />
         <label htmlFor="Farheinheit">Farheinheit</label>
